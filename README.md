@@ -1,0 +1,3 @@
+# LGTMStamp
+GitHubのPull Requestに対してLGTMの画像をコメントとして送信できるボタンを追加するChrome拡張
+現状, 既に投稿されたLGTM画像を固定パスとして埋め込んでいます
