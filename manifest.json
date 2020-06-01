@@ -1,0 +1,19 @@
+{
+    "name":"LGTMStamp",
+    "version":"1.0.0",
+    "manifest_version":2,
+    "description":"Add LGTMStamp button to github pull request page.",
+    "content_scripts":[{
+        "run_at":"document_end",
+        "matches":["https://github.com/*/*/pull/*"],
+        "js":[
+            "jquery-3.5.1.min.js",
+            "content.js"
+        ]
+    }],
+    "icons":{
+        "16":"img/lgtm16.jpg",
+        "48":"img/lgtm48.jpg",
+        "128":"img/lgtm128.jpg"
+    }
+}
