@@ -6,5 +6,6 @@ $(function() {
         if (text) text += '\n';
         const lgtmText = "![LGTM]("+imgurl+")";
         $('#new_comment_field').val(text+lgtmText);
+        $('.flex-justify-end div:nth-child(2) button').prop('disabled', false);
     });
 });
